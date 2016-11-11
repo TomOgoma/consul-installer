@@ -1,0 +1,9 @@
+[Unit]
+Description=Consul Auto Atarter
+
+[Service]
+ExecStart=/usr/local/bin/consul agent -dev -advertise=127.0.0.1
+SyslogIdentifier=consul
+
+[Install]
+WantedBy=multi-user.target
