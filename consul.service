@@ -1,5 +1,5 @@
 [Unit]
-Description=Consul Auto Atarter
+Description=Consul Auto Starter
 
 [Service]
 ExecStart=/usr/local/bin/consul agent -dev -advertise=127.0.0.1
